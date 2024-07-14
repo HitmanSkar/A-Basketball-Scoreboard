@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="content">
+            <h2 class="font_size_40">Points</h2>
+            <div class="container">
+                <div>
+                    <h2 class="font_size">HOME</h2>
+                    <p id="home_p" class="box">0</p>
+                    <div class="score">
+                        <a id="score_1" class="score_box" onclick="hadd1()">+ 1</a>
+                        <a id="score_2" class="score_box" onclick="hadd2()">+ 2</a>
+                        <a id="score_3" class="score_box" onclick="hadd3()">+ 3</a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Period</h2>
+                    <p id="period_score" class="box_p">0</p>
+                    <div class="period_add">
+                        <a id="score_1" class="score_box" onclick="padd1()">+ 1</a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="font_size">GUEST</h2>
+                    <p id="guest_p" class="box">0</p>
+                    <div class="score">
+                        <a id="score_1" class="score_box" onclick="gadd1()">+ 1</a>
+                        <a id="score_2" class="score_box" onclick="gadd2()">+ 2</a>
+                        <a id="score_3" class="score_box" onclick="gadd3()">+ 3</a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="font_size_40">Fouls</h2>
+            <div class="foul">
+                <div>
+                    <h2 class="font_size">HOME</h2>
+                    <p id="home_f" class="box_f">0</p>
+                    <div class="foul_score">
+                        <a id="score_1" class="score_box" onclick="hfoul()">+ 1</a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="font_size">GUEST</h2>
+                    <p id="guest_f" class="box_f">0</p>
+                    <div class="foul_score">
+                        <a id="score_1" class="score_box" onclick="gfoul()">+ 1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="new_game">
+                <h3 id="new" onclick="reset()">New Game</h3>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

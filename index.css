@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, p{
+    margin: 0;
+    font-family: "Creepster", system-ui;
+}
+.font_size{
+    font-size: 50px;
+    letter-spacing: 0.4rem;
+}
+.font_size_40{
+    font-size: 40px;
+    letter-spacing: 0.4rem;
+}
+.content{
+    background-color: #19244d;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #000;
+    font-family: "Creepster", system-ui;
+    font-size: 60px;
+    color: #5df94f;
+    letter-spacing: 0.3rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.box_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    font-family: "Creepster", system-ui;
+    font-size: 60px;
+    color: #f94f6d;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-family: "Creepster", system-ui;
+}
+
+.period_add{
+    display: flex;
+    justify-content: center;
+    font-family: "Creepster", system-ui;
+}
+.score_box{
+    border: 1px solid #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.foul{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.box_f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    font-family: "Creepster", system-ui;
+    font-size: 60px;
+    color: #f9ee4f;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.foul_score{
+    display: flex;
+    justify-content: center;
+    font-family: "Creepster", system-ui;
+}
+.new_game{
+    font-size: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
